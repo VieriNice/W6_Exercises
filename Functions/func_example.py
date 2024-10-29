@@ -1,9 +1,35 @@
-def my_first_function():
-    print("Hello World!")
-    return "How are you?"
+current_time = '1:28PM'
+time_results = None
+
+def stopwatch(m, s):
+    time_results = f'{m}:{s}'
+    print(f'Current time is: {current_time}')
+    return f'The time result is: {time_results}'
+    
+
+print(f'Results from stopwatch: {stopwatch(1,12)}')
+print(f'Results from stopwatch: {stopwatch(0,48)}')
+print(time_results)
 
 
-print(my_first_function())
+
+
+
+
+
+
+
+
+
+
+
+
+# def my_first_function():
+#     print("Hello World!")
+#     return "How are you?"
+
+
+# print(my_first_function())
 
 # def calculator(n1, n2, operation = '+'): 
 #     print(f"You have chosen the {operation} operation ")
@@ -41,16 +67,16 @@ print(my_first_function())
 
 
 
-def rels(rel, name, **kwargs):
-    kwargs['relationship'] = rel
-    kwargs['name'] = name
-    return kwargs
+# def rels(rel, name, **kwargs):
+#     kwargs['relationship'] = rel
+#     kwargs['name'] = name
+#     return kwargs
 
-person1 = rels('Cousin', 'Becky', attribute = 'funny')
-print(person1)
+# person1 = rels('Cousin', 'Becky', attribute = 'funny')
+# print(person1)
 
-person2 = rels('Uncle', 'Joe', address = '103 Maple', city_state_zip = 'Berwyn, Illinois, 60402')
-print(person2)
+# person2 = rels('Uncle', 'Joe', address = '103 Maple', city_state_zip = 'Berwyn, Illinois, 60402')
+# print(person2)
 
 
 
