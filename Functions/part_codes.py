@@ -5,5 +5,7 @@ supplier, part_info = part_code.split(':')
 product_code, size = part_info.split('-')
 
 
-print(f'{supplier}:{part_info}')
+print(f'Supplier:{part_info}')
+print(f'Product Code: {product_code}')
+print(f"Size: {size}")
 
