@@ -20,6 +20,13 @@ print('54000')
 
 
 
+employee_number = 1234
+dept_code = "IT"
+name = 'Mark Blick-Hawlry'
+salary = 67000
+
+format_output = f'{employee_number} | {dept_code} | {name} | {salary}'
+print(format_output)
 
 
 
